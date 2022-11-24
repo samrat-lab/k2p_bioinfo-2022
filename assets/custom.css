@@ -1,0 +1,59 @@
+.main_page {
+
+	background-color: green;
+	margin: auto 10px;
+    width: auto;
+    height: 2000px;
+
+
+}
+
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #4c8bf5;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab :hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+.search_page {
+ background: #d3d8e0;
+
+}
+
+.search_box {
+    display:inline-block;
+    border:8px solid black;
+    width: 450px;
+    padding:50px 0;
+    background: blue;
+
+}
